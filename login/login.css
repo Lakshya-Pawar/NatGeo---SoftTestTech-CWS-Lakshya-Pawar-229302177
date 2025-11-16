@@ -1,0 +1,82 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-image: url(/images/northlights.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;/*inetrnet helps*/
+  background-size: cover;
+  background-position: center;/*inetrnet helps*/
+}
+
+.login-container {
+  color: whitesmoke;
+  width: 400px;
+  margin: 110px auto; /* Key change: 'auto' for side margins centers the block */
+  padding: 30px;
+  border-radius: 10px;
+  background-color: black;
+  transition: transform 0.5s;
+}
+
+.login-container:hover {
+  transform: scale(1.05);
+}
+
+#logo {
+  width: 30%;
+  transition: transform 0.5s;
+  margin-top: 8%;
+  margin-left: 35%;
+  box-shadow: 0px 10px 100px rgba(0, 0, 0, 10); /*inetrnet helps*/
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+input[type="text"], input[type="password"] {
+  width: 93%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #FFDC00;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+button[type="reset"] {
+  background-color: #FFDC00;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.07);
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+/**/

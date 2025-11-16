@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("/images/astronaut.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*inetrnet helps*/
+    background-size: cover;
+    background-position: center;/*inetrnet helps*/
+}
+
+#logo {
+  width: 30%;
+  transition: transform 0.5s;
+  margin-top: 7%;
+  margin-left: 35%;
+  box-shadow: 0px 10px 100px rgba(0, 0, 0, 10); /*inetrnet helps*/
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+form {
+  max-width: 380px;
+  margin: 10px auto 10%;
+  background-color: rgb(0, 0, 0);
+  padding: 31px;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: all 0.4s ease;
+  position: relative;
+  box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+
+/* Animated glowing border */
+form::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 2px;
+  background-size: 300% 300%;
+  z-index: -1;
+  animation: glowBorder 6s linear infinite;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+}
+
+form:hover {
+  transform: scale(1.02);
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: whitesmoke;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+select {
+    padding: 8px;
+}
+
+input[type="submit"], [type="reset"] {
+    background-color: #FFDC00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+input[type="submit"]:hover, [type="reset"]:hover {
+    transform: scale(1.07);
+}
+
+p {
+    color: whitesmoke;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}

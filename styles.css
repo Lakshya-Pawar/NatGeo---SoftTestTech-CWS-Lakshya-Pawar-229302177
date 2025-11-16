@@ -1,0 +1,443 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+/* ===== User Name Link ===== */
+.user-link {
+  color: #ffcc00;                 /* National Geographic yellow */
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+/* Hover effect: white background + yellow text */
+.user-link:hover {
+  background-color: #ffffff;
+  color: #ffcc00;
+  text-decoration: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 235px 0;
+    background-image: url(./images/astro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header img {
+    max-width: 400px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #28282B;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #FFCE00;
+    color: black;
+}
+#user {
+    float: right;
+}
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.logo {
+    position: fixed;
+    top: 7%;
+    left: 0;
+    margin-top: 2px;
+    width: 125px;
+}
+
+.final {
+    color: #fff;
+    font-family: GeoBrandBold, CenturyGothic, AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    height: 300px;
+    background-image: url(images/nature.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*inetrnet helps*/
+    background-size: cover;
+    background-position: center;/*inetrnet helps*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.final .big {
+    font-size: xx-large;
+}
+button{
+    background-color: #FFCE00;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: #FFCE00;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+    padding: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.line {
+    background-color: #fc0;
+    height: 4px;
+    margin-left: 45%;
+    width: 8%;
+    margin-bottom: 40px;
+}
+
+.articles {
+    background-color: black;
+}
+.articles a {
+    text-decoration: none;
+}
+
+.animals {
+    background-image: url(./images/animals.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*inetrnet helps*/
+    background-size: cover;
+    background-position: center;/*inetrnet helps*/
+}
+.animals-div {
+    display: flex;
+    gap: 80px;
+}
+#animals-latest p {
+    font-weight: bolder;
+}
+
+#fossil {
+    width: 80%;
+    height: 25%;
+    transition: transform 0.5s;
+}
+#fossil p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#fossil img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#fossil:hover {
+    transform: scale(1.05);
+}
+
+#fish {
+    width: 80%;
+    height: 22%;
+    transition: transform 0.5s;
+}
+#fish p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#fish img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#fish:hover {
+    transform: scale(1.05);
+}
+
+#coral {
+    width: 80%;
+    height: 25%;
+    transition: transform 0.5s;
+}
+#coral p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#coral img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#coral:hover {
+    transform: scale(1.05);
+}
+
+#bird {
+    margin-left: 10%;
+    width: 40%;
+    transition: transform 0.5s;
+}
+#bird:hover {
+    transform: scale(1.05);
+}
+#bird img {
+    width: 100%;
+}
+#bird p {
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/**/
+
+.science {
+    background-image: url(./images/stars.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*inetrnet helps*/
+    background-size: cover;
+    background-position: center;/*inetrnet helps*/
+}
+.science-div {
+    display: flex;
+    gap: 80px;
+}
+#science-latest p {
+    font-weight: bolder;
+}
+
+#asteroid {
+    width: 80%;
+    height: 25%;
+    transition: transform 0.5s;
+}
+#asteroid p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#asteroid img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#asteroid:hover {
+    transform: scale(1.05);
+}
+
+#spacex {
+    width: 80%;
+    height: 22%;
+    transition: transform 0.5s;
+}
+#spacex p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#spacex img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#spacex:hover {
+    transform: scale(1.05);
+}
+
+#lights {
+    margin-left: 10%;
+    width: 40%;
+    transition: transform 0.5s;
+}
+#lights:hover {
+    transform: scale(1.05);
+}
+#lights img {
+    width: 100%;
+}
+#lights p {
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#supplement {
+    width: 80%;
+    height: 25%;
+    transition: transform 0.5s;
+}
+#supplement p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#supplement img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#supplement:hover {
+    transform: scale(1.05);
+}
+
+/**/
+
+.travel {
+    background-image: url(./images/travel.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*inetrnet helps*/
+    background-size: cover;
+    background-position: center;/*inetrnet helps*/
+}
+.travel-div {
+    display: flex;
+    gap: 80px;
+}
+#travel-latest p {
+    font-weight: bolder;
+}
+
+#bhutan {
+    margin-left: 10%;
+    width: 40%;
+    transition: transform 0.5s;
+}
+#bhutan:hover {
+    transform: scale(1.05);
+}
+#bhutan img {
+    width: 100%;
+}
+#bhutan p {
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#parks {
+    width: 80%;
+    height: 25%;
+    transition: transform 0.5s;
+}
+#parks p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#parks img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#parks:hover {
+    transform: scale(1.05);
+}
+
+#april {
+    width: 80%;
+    height: 22%;
+    transition: transform 0.5s;
+}
+#april p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#april img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#april:hover {
+    transform: scale(1.05);
+}
+
+#scotland {
+    width: 80%;
+    height: 25%;
+    transition: transform 0.5s;
+}
+#scotland p {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+#scotland img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 45.4%;
+    margin-right: 15px;
+}
+#scotland:hover {
+    transform: scale(1.05);
+}
+
+/**/
+
+.history {
+    background-image: url(/images/history.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*inetrnet helps*/
+    background-size: cover;
+    background-position: center;/*inetrnet helps*/
+}
