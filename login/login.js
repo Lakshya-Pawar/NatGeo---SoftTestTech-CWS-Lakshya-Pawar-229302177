@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (loggedInUser) {
       sessionStorage.setItem("loggedInUser", JSON.stringify(loggedInUser));
-      window.location.href = "/index.html";
+      window.location.href = "../index.html";
     } else {
       alert("Invalid credentials. Please check your details and try again.");
     }
